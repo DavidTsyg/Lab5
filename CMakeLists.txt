@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 2.8)
 
-project (Laboratory-work-5-sem2)
+project (Sem2_Lab5)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(HEADERS ${PROJECT_SOURCE_DIR}/include/Laboratory-work-5-sem2.hpp)
+set(HEADERS ${PROJECT_SOURCE_DIR}/include/Sem2_Lab5.hpp)
 set(HEADERS ${PROJECT_SOURCE_DIR}/include/catch.hpp)
-set(SOURCES ${PROJECT_SOURCE_DIR}/sources/Laboratory-work-5-sem2.cpp)
+set(SOURCES ${PROJECT_SOURCE_DIR}/sources/Sem2_Lab5.cpp)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
