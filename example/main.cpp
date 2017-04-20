@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	binarytree <int> tree;
-  tree.insert(10);
+  	tree.insert(10);
+	tree.insert(15);
 	return 0;
 }
