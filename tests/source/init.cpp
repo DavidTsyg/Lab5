@@ -4,7 +4,7 @@
 SCENARIO("Inserting a nonexistent node") {
     binarytree <int> tree;
     tree.insert(14);
-    int rv = r.insert(15);
+    int rv = tree.insert(15);
     
     REQUIRE( rv == 0);
 }
@@ -39,7 +39,7 @@ SCENARIO("Deleting an existent node") {
     binarytree <int> tree;
     tree.insert(14);
     tree.insert(15);
-    int rv = tree.destroy_node(15);
+    int rv = tree.destroynode(15);
     
     REQUIRE( rv == 0);
 }
@@ -48,7 +48,7 @@ SCENARIO("Deleting a nonexistent node") {
     binarytree <int> tree;
     tree.insert(14);
     tree.insert(15);
-    int rv = tree.destroy_node(17);
+    int rv = tree.destroynode(17);
     
     REQUIRE( rv == 1);
 }
